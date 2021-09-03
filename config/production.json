@@ -1,4 +1,0 @@
-{
-    "mongoURL": "mongodb+srv://admin-Nirmalya:nirmalya@blogdb.vbpur.mongodb.net/socialDB",
-    "jwtSecret": "mySecretToken"
-}
