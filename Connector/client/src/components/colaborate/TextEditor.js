@@ -28,7 +28,7 @@ const TextEditor = ({ email, auth }) => {
 
   // Setting up the connection to server
   useEffect(() => {
-    const s = io('https://vedio-colaborate-server.herokuapp.com/');
+    const s = io('http://localhost:8000');
     setSocket(s);
     return () => {
       s.disconnect();
