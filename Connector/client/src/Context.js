@@ -5,7 +5,7 @@ import Peer from 'simple-peer';
 const SocketContext = createContext();
 
 //connecting socket.io
-const socket = io('https://vedio-colaborate-server.herokuapp.com/');
+const socket = io('http://localhost:8000');
 
 const ContextProvider = ({ children }) => {
   //states
